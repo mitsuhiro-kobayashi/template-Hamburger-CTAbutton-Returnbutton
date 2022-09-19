@@ -171,6 +171,10 @@ about
     width: 100%;
 }
 
+.about-contents p {
+    margin-top: 15px;
+}
+
 /*********
 service
 **********/
