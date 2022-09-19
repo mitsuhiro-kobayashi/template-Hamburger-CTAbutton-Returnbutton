@@ -8,76 +8,89 @@
     <!-- リセットCSS -->
     <link rel="stylesheet" href="css/takebayashi-reset.css">
     <!-- FontAwesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
+    <script src="https://kit.fontawesome.com/8cdec25e91.js" crossorigin="anonymous"></script>
     <title>テンプレ|ハンバーガーメニュー|CTAボタン|ページTOP戻るボタン</title>
 </head>
 <body class="transition">
-    <header>
-        <h1><a href="#"></a><img src="img/logo.png" alt="TECHI.S."></h1>
+    <header class="header">
+        <h1><a href="#"><img src="img/logo.png" alt="TECHI.S."></a></h1>
         <ul class="menu-pc">
             <li><a href="#">About</a></li>
             <li><a href="#">Service</a></li>
             <li><a href="#">News</a></li>
+            <li class="menu-icon-contact">
+                <a href="contact.html">
+                    <i class="fa-sharp fa-solid fa-file-signature"></i>Contact</a>
+            </li>
         </ul>
         <ul class="menu-sp">
             <li><a href="#">About</a></li>
             <li><a href="#">Service</a></li>
             <li><a href="#">News</a></li>
+            <li class="menu-icon-contact">
+                <a href="contact.html">
+                    <i class="fa-sharp fa-solid fa-file-signature"></i>Contact</a>
+            </li>
         </ul>
     </header>
     <main>
         <section id="front-fv">
             <img src="img/top1.png" alt="トップ画像">
             <h2>
-                どこにいても、<br>
-                生まれても、<br>
-                世界最高の教育を受けられる。
+                どこにいても、<br>生まれても、<br>世界最高の教育を受けられる。
             </h2>
         </section>
         <section id="about">
-            <h2 class="common-h2">About</h2>
-            <h3>
-                プログラミングスクール<br>
-                テックアイエス
-            </h3>
-            <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+            <h2 class="common-title-h2">About</h2>
+            <ul class="about-contents">
+                <li><img src="img/logo.png" alt="ロゴ"></li>
+                <li>
+                    <h3 class="common-title-h3">
+                        プログラミングスクール<br>テックアイエス
+                    </h3>
+                    <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                </li>
+            </ul>
         </section>
         <section id="service">
-            <h2 class="common-h2">Service</h2>
+            <h2 class="common-title-h2">Service</h2>
                 <ul class="service-contents">
-                    <li>
-                        <h3>テキストテキスト①</h3>
+                    <li class="service-content">
+                        <img src="img/service1.png" alt="サービス">
+                        <h3 class="common-title-h3">テキストテキスト①</h3>
                         <p>ここにテキストが入りますここにテキストが入ります ここにテキストが入りますここにテキストが入ります ここにテキストが入りますここにテキストが入ります ここにテキストが入りますここにテキストが入ります</p>
                     </li>
-                    <li>
-                        <h3>テキストテキスト②</h3>
+                    <li class="service-content">
+                        <img src="img/service2.png" alt="サービス2">
+                        <h3 class="common-title-h3">テキストテキスト②</h3>
                         <p>ここにテキストが入りますここにテキストが入ります ここにテキストが入りますここにテキストが入ります ここにテキストが入りますここにテキストが入ります ここにテキストが入りますここにテキストが入ります</p>
                     </li>
-                    <li>
-                        <h3>テキストテキスト③</h3>
+                    <li class="service-content">
+                        <img src="img/service3.png" alt="サービス3">
+                        <h3 class="common-title-h3">テキストテキスト③</h3>
                         <p>ここにテキストが入りますここにテキストが入ります ここにテキストが入りますここにテキストが入ります ここにテキストが入りますここにテキストが入ります ここにテキストが入りますここにテキストが入ります</p>
                     </li>
                 </ul>
         </section>
         <section id="news">
-            <h2 class="common-h2">News</h2>
+            <h2 class="common-title-h2">News</h2>
             <article>
                 <a href="#">
                     <time datetime="2022-09-29">2022年9月19日</time>
-                    <h3>事業構造改革を行います</h3>
+                    <h3 class="common-title-h3">事業構造改革を行います</h3>
                 </a>
             </article>
-            <button><a href="article.html">ニュース一覧はこちら</a></button>
+            <button class="common-btn-white"><a href="article.html">ニュース一覧はこちら</a></button>
         </section>
         
         
         <section id="contact">
-            <h2 class="common-h2">Contact</h2>
-            <h3>
+            <h2 class="common-title-h2">Contact</h2>
+            <h3 class="common-title-h3">
                 まずはお気軽に<br>
                 無料で体験&カウンセリング
             </h3>
-            <button><a href="contact.html">お申し込みはこちら</a></button>
+            <button class="common-btn-green"><a href="contact.html">お申し込みはこちら</a></button>
         </section>
     </main>
     <footer class="footer">
