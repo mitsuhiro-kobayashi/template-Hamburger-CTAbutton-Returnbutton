@@ -24,6 +24,9 @@ body {
 /*********
 common
 **********/
+/*********
+CTAボタンの白色と緑色
+**********/
 .common-btn-white {
     background-color: #fff;
     border-radius: 50px;
@@ -208,6 +211,27 @@ service
 /*********
 News
 **********/
+.front-news {
+    border-bottom: 0.3px solid #DDDDDD;
+    margin: 0 10%;
+    padding: 2% 5%;
+}
+.front-news time {
+    background-color: #EEEEEE;
+    border-radius: 50px;
+    padding: 0.5% 0.5%;
+    color: #c4a18e;
+    margin-right: 50px;
+}
+.front-news a {
+    font-size: 10px;
+    display: flex;
+}
+
+.front-news h3 {
+    font-size: 18px;
+    text-align: left;
+}
 
 
 /*********
@@ -252,5 +276,69 @@ media
 @media screen and (max-width: 768px) {
     .menu-pc {
         display: none;
+    }
+
+    #front-fv {
+        height: 500px;
+    }
+
+    #front-fv h2 {
+        font-size: 25px;
+        position: absolute;
+        top: 20%;
+        left: 3%;
+        line-height: 3em;
+    }
+    .common-title-h2 {
+        padding: 20%;
+    }
+
+    .common-title-h2::after {
+        width: 20%;
+        transform: translate(200%);
+    }
+    .about-contents {
+        display: block;
+    }
+    .about-contents li {
+        width: 100%;
+        margin: 3% 1%;
+    }
+    .about-contents li img {
+        margin-bottom: 10%;
+    }
+    #service {
+        padding: 0;
+    }
+    .service-contents {
+        display: block;
+        padding: 3%;
+    }
+    .service-content {
+        width: 100%;
+        margin: 0%;
+    }
+    .service-content img {
+        width: 100%;
+    }
+    .front-news {
+        padding: 0;
+        margin: 0;
+    }
+    .front-news a {
+    display: block;
+    margin: 5%;
+    }
+    .front-news h3 {
+        margin-top: 5%;
+    }
+    .common-btn-white {
+        padding: 3% 15%;
+    }
+    .common-btn-green {
+        padding: 3% 15%;
+    }
+    #contact {
+        padding: 0 0 10% 0;
     }
 }
